@@ -9,7 +9,9 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
+   
 
+   
 @Stateless
 public class AngularService extends MockService {
 
@@ -50,7 +52,7 @@ public class AngularService extends MockService {
 //	@Path("/{put}")
 //	public Response putClient(@PathParam("value") String value)
 //	{
-//		String message = "Emrah Öztürk";
+//		String message = "Emrah ï¿½ztï¿½rk";
 //		//return Response.ok(message).build();
 //		return Response.ok().header("Access-Control-Allow-Origin", "*").build();
 //	}
