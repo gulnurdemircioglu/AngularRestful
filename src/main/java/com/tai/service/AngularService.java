@@ -10,8 +10,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
    
-
-   
 @Stateless
 public class AngularService extends MockService {
 
